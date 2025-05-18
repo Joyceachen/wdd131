@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="A responsive gallery of beautiful temples">
+    <link rel="stylesheet" href="temples.css">
+    <link rel="stylesheet" href="temples-large.css" media="(min-width: 768px)">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <nav id="nav-menu">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Old</a>
+            <a href="#" class="nav-link">New</a>
+            <a href="#" id="large-link" class="nav-link active-view">Large</a>
+            <a href="#" id="small-link" class="nav-link">Small</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Home</h1>
+        <div class="gallery" id="gallery">
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Somanath.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Somanath Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | JOYCE ACHEN | Gulu, UGANDA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
