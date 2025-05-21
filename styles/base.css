@@ -91,7 +91,7 @@ body {
 }
 
 .location {
-	text-align: center;
+	text-align: left;
 	padding: 15px 0;
 	margin: 15px 0;
 	border-top: 1px solid #ddd;
@@ -125,6 +125,7 @@ body {
 .country-info {
 	flex: 20;
 	line-height: 1.6;
+	
 }
 
 .resources-list {
