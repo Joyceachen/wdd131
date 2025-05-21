@@ -75,7 +75,7 @@ body {
 
 .about-me-text {
 	flex: 2;
-	min-width: 200px;
+	max-width: 200px;
 	line-height: 1.6;
 }
 
