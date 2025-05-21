@@ -91,7 +91,7 @@ body {
 }
 
 .location {
-	text-align: center;
+	text-align: left;
 	padding: 15px 0;
 	margin: 15px 0;
 	border-top: 1px solid #ddd;
@@ -103,12 +103,12 @@ body {
 	display: flex;
 	gap: 20px;
 	margin-top: 15px;
+	text-align: left;
 }
 
 .flag {
 	flex: 1;
 	min-width: 150px;
-	text-align: left;
 }
 
 .flag img {
@@ -123,8 +123,9 @@ body {
 }
 
 .country-info {
-	flex: 20;
+	flex: 2;
 	line-height: 1.6;
+	
 }
 
 .resources-list {
